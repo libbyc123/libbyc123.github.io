@@ -1,4 +1,5 @@
 .hero {
+  width: 100%;
   height: 400px;
   background-image: url("assest/images/cool.jpg");
   background-size: cover;
