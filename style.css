@@ -36,7 +36,7 @@ body.menu-open::after {
   top: 20px;
   right: 20px;
   font-size: 70px;
-  color: black;
+  color: white;
   cursor: pointer;
   z-index: 3000;
 }
