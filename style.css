@@ -1,6 +1,6 @@
 .hero {
   height: 400px;
-  background-image: url("assets/images/banner.jpg");
+  background-image: url("assest/images/house.png");
   background-size: cover;
   background-position: center;
   display: flex;
