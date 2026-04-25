@@ -15,7 +15,7 @@ body.menu-open::after {
   height: 400px;
   background-image: url("assest/images/test.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 40% center;
   background-repeat: no-repeat;
 
   display: flex;
