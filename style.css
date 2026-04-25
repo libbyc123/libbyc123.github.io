@@ -28,8 +28,8 @@ body {
   position: fixed;
   top: 20px;
   right: 20px;
-  font-size: 32px;
-  color: white;
+  font-size: 70px;
+  color: black;
   cursor: pointer;
   z-index: 3000;
 }
