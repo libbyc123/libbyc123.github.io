@@ -23,22 +23,24 @@
     </div>
   </div>
 
- <script>
-  function toggleMenu() {
-    document.getElementById("navbar").classList.toggle("active");
-    document.body.classList.toggle("menu-open");
-  }
-  
-    // close menu when clicking outside
-    document.addEventListener("click", function(event) {
-    const navbar = document.getElementById("navbar");
-    const menuIcon = document.querySelector(".menu-icon");
-  
-    const clickedInsideMenu = navbar.contains(event.target);
-    const clickedIcon = menuIcon.contains(event.target);
-  
-    if (!clickedInsideMenu && !clickedIcon) {
-      navbar.classList.remove("active");
+<script>
+function toggleMenu() {
+  const navbar = document.getElementById("navbar");
+
+  navbar.classList.toggle("active");
+  document.body.classList.toggle("menu-open");
+}
+
+document.addEventListener("click", function(event) {
+  const navbar = document.getElementById("navbar");
+  const menuIcon = document.querySelector(".menu-icon");
+
+  const clickedInsideMenu = navbar.contains(event.target);
+  const clickedIcon = menuIcon.contains(event.target);
+
+  if (!clickedInsideMenu && !clickedIcon) {
+    navbar.classList.remove("active");
+    document.body.classList.remove("menu-open");
   }
 });
 </script>
