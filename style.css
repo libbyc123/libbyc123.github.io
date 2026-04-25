@@ -1,3 +1,21 @@
+.hero {
+  height: 400px;
+  background-image: url("assets/images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+  padding: 20px;
+  border-radius: 10px;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
