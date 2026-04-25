@@ -2,6 +2,13 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+body.menu-open::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 1500;
+}
 
 .hero {
   width: 100%;
