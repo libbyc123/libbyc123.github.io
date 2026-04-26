@@ -21,6 +21,7 @@ body.menu-open::after {
   display: flex;
   align-items: center;
   justify-content: center;
+   overflow: hidden;
 }
 
 .hero::after {
@@ -30,8 +31,10 @@ body.menu-open::after {
 
   background: linear-gradient(
     to bottom,
-    rgba(255,255,255,0) 60%,   /* image visible */
-    rgba(255,255,255,1) 100%   /* fades into page */
+    rgba(255,255,255,0) 50%,
+    rgba(255,255,255,0.3) 70%,
+    rgba(255,255,255,0.7) 85%,
+    rgba(255,255,255,1) 100%
   );
 }
 
