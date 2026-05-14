@@ -18,9 +18,13 @@ body.menu-open::after {
   background-repeat: no-repeat;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
-   overflow: hidden;
+  justify-content: center;   
+  align-items: flex-start;   
+
+  overflow: hidden;
+  position: relative;
+
+  padding-top: 40px;         /* space from top */
 }
 
 .hero::after {
@@ -39,9 +43,10 @@ body.menu-open::after {
 
 .hero-text {
   color: black;
-  text-align: left;
-  padding: 2px;
-  border-radius: 1px;
+  text-align: center;
+
+  position: relative;
+  z-index: 2;
 }
 
 .menu-icon {
