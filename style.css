@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Georgia, sans-serif;
+  font-family: Georgia, serif;
 }
 body.menu-open::after {
   content: "";
