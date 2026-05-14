@@ -48,7 +48,17 @@ body.menu-open::after {
   position: relative;
   z-index: 2;
 }
+.intro-text {
+  width: 40%;
+  margin-left: auto;   /* pushes it to right side */
+  margin-right: 60px;
 
+  text-align: left;
+
+  font-size: 18px;
+  line-height: 1.7;
+  font-family: Georgia, serif;
+}
 .menu-icon {
   position: fixed;
   top: 20px;
