@@ -112,7 +112,7 @@ body.menu-open::after {
   width: 300px;
   height: 200px;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 0px;
   text-decoration: none;
 }
 
@@ -127,18 +127,20 @@ body.menu-open::after {
 .project-card:hover img {
   transform: scale(1.05);
 }
-
 .project-label {
   position: absolute;
-  bottom: 0;
-  width: 100%;
+  top: 50%;
+  left: 50%;
 
-  background: rgba(0,0,0,0.5);
-  color: white;
+  transform: translate(-50%, -50%);
+
+  color: red;
+  font-size: 32px;
+  font-family: Georgia, serif;
+  font-weight: bold;
 
   text-align: center;
-  padding: 12px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
 
-  font-size: 22px;
-  font-family: Georgia, serif;
+  z-index: 2;
 }
