@@ -134,8 +134,8 @@ body.menu-open::after {
 
   transform: translate(-50%, -50%);
 
-  color: red;
-  font-size: 32px;
+  color: white;
+  font-size: 60px;
   font-family: Georgia, serif;
   font-weight: bold;
 
