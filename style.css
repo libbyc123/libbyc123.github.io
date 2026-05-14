@@ -13,7 +13,6 @@ body.menu-open::after {
 .hero {
   width: 100%;
   height: 400px;
-  background-image: url("assest/images/test.jpg");
   background-size: cover;
   background-position: 40% center;
   background-repeat: no-repeat;
