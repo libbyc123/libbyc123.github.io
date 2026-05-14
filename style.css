@@ -24,7 +24,7 @@ body.menu-open::after {
   overflow: hidden;
   position: relative;
 
-  padding-top: 40px;         /* space from top */
+  padding-top: 10px;         /* space from top */
 }
 
 .hero::after {
