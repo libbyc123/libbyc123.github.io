@@ -109,8 +109,8 @@ body.menu-open::after {
 
 .project-card {
   position: relative;
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
   overflow: hidden;
   border-radius: 0px;
   text-decoration: none;
