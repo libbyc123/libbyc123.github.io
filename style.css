@@ -49,9 +49,9 @@ body.menu-open::after {
   z-index: 2;
 }
 .intro-text {
-  width: 40%;
+  width: 50%;
   margin-left: auto;   /* pushes it to right side */
-  margin-right: 60px;
+  margin-right: 100px;
 
   text-align: left;
 
