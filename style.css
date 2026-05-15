@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Georgia, serif;
-  background-color: rgba(190, 135, 90, 1);
+  background-color: rgba(174, 175, 97, 1);
 }
 body.menu-open::after {
   content: "";
@@ -33,7 +33,7 @@ body.menu-open::after {
   position: absolute;
   inset: 0;
 
-  background: rgba(180, 220, 180, 1)
+  background: rgba(19, 98, 152, 1);
 }
 
 .hero-text {
@@ -59,7 +59,7 @@ body.menu-open::after {
   width: 300px;
   height: 500px;
 
-  background-color: rgba(70, 110, 180, 1);
+  background-color: rgba(182, 87, 84, 1);
 
   position: absolute;
   left: 40px;
