@@ -49,7 +49,7 @@ body.menu-open::after {
   z-index: 2;
 }
 .intro-text {
-  width: 50%;
+  width: 40%;
   margin-left: auto;   /* pushes it to right side */
   margin-right: 100px;
 
