@@ -56,6 +56,20 @@ body.menu-open::after {
   line-height: 1.7;
   font-family: Georgia, serif;
 }
+
+.contact-text {
+  width: 40%;
+  margin-left: auto;   /* pushes it to right side */
+  margin-right: 100px;
+  margin-top: 200px;
+
+  text-align: left;
+
+  font-size: 18px;
+  line-height: 1.7;
+  font-family: Georgia, serif;
+}
+
 .left-panel {
   width: 500px;
   height: 500px;
