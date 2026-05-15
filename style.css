@@ -38,8 +38,11 @@ body.menu-open::after {
 }
 
 .hero-text {
-  color: black;
-  text-align: center;
+  color: white;
+  width: 55%;
+  margin-left: auto;
+  
+  text-align: left;
 
   position: relative;
   z-index: 2;
