@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Georgia, serif;
-  background-color: rgba(174, 175, 97, 1);
+  background-color: rgba(0, 128, 169, 1);
 }
 body.menu-open::after {
   content: "";
