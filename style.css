@@ -43,7 +43,7 @@ body.menu-open::after {
   margin-left: auto;
   
   text-align: left;
-  font-size: 60px;
+  font-size: 30px;
   position: relative;
   z-index: 2;
 }
