@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Georgia, serif;
+  color: green;
 }
 body.menu-open::after {
   content: "";
