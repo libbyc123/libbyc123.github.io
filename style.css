@@ -62,7 +62,7 @@ body.menu-open::after {
   background-color: rgba(182, 87, 84, 1);
 
   position: absolute;
-  left: 100px;
+  left: 175px;
   top: 100px;
 
   border-radius: 0px;
