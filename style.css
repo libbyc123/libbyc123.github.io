@@ -47,6 +47,7 @@ body.menu-open::after {
   width: 40%;
   margin-left: auto;   /* pushes it to right side */
   margin-right: 100px;
+  margin-top: 80px;
 
   text-align: left;
 
