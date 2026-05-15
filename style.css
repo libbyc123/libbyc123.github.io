@@ -56,16 +56,16 @@ body.menu-open::after {
   font-family: Georgia, serif;
 }
 .left-panel {
-  width: 300px;
+  width: 500px;
   height: 500px;
 
   background-color: rgba(182, 87, 84, 1);
 
   position: absolute;
-  left: 40px;
-  top: 500px;
+  left: 100px;
+  top: 100px;
 
-  border-radius: 20px;
+  border-radius: 0px;
 }
 .menu-icon {
   position: fixed;
