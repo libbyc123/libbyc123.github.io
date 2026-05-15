@@ -63,6 +63,8 @@ body.menu-open::after {
 }
 
 .contact-text {
+  font-family: Montserrat, sans-serif;
+  color: rgba(30, 88, 85, 1);
   width: 40%;
   margin-left: auto;   /* pushes it to right side */
   margin-right: 100px;
