@@ -55,6 +55,18 @@ body.menu-open::after {
   line-height: 1.7;
   font-family: Georgia, serif;
 }
+.left-panel {
+  width: 300px;
+  height: 500px;
+
+  background-color: rgba(70, 110, 180, 1);
+
+  position: absolute;
+  left: 40px;
+  top: 500px;
+
+  border-radius: 20px;
+}
 .menu-icon {
   position: fixed;
   top: 20px;
