@@ -1,20 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Contact</title>
 </head>
 <body>
+<div class="menu-icon" onclick="toggleMenu()">☰</div>
 
-<nav>
-  <ul>
+<nav id="navbar">
+  <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
+    <li><a href="resume.html">Resume</a></li>
     <li><a href="projects.html">Projects</a></li>
   </ul>
 </nav>
+  
+ <div class="hero">
+    <div class="hero-text">
+    <h1>Curricula Vitae</h1>
+    </div>
+ </div>
+<div class="contact-text">
+  <p>
+    This is where I'll put in a link to download the pdf of my resume and CV.
+  </p>
+</div>
+      
+<script>
+function toggleMenu() {
+  const navbar = document.getElementById("navbar");
 
-<h1>Curricula Vitae</h1>
-<p>Here's everything i love to do</p>
+  navbar.classList.toggle("active");
+  document.body.classList.toggle("menu-open");
+}
 
+document.addEventListener("click", function(event) {
+  const navbar = document.getElementById("navbar");
+  const menuIcon = document.querySelector(".menu-icon");
+
+  const clickedInsideMenu = navbar.contains(event.target);
+  const clickedIcon = menuIcon.contains(event.target);
+
+  if (!clickedInsideMenu && !clickedIcon) {
+    navbar.classList.remove("active");
+    document.body.classList.remove("menu-open");
+  }
+});
+</script>
 </body>
 </html>
