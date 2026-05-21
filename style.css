@@ -186,7 +186,10 @@ body.menu-open::after {
   font-family: Montserrat, sans-serif;
   font-weight: bold;
 
+  
   text-align: center;
+  line-height: 1.2;
+  letter-spacing: 2px;
 
   z-index: 2;
 }
