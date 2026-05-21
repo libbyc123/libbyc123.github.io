@@ -182,12 +182,11 @@ body.menu-open::after {
   transform: translate(-50%, -50%);
 
   color: white;
-  font-size: 90px;
+  font-size: 200px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
 
   text-align: center;
-  text-shadow: 1px 1px 8px rgba(0,0,0,0.7);
 
   z-index: 2;
 }
