@@ -208,7 +208,7 @@ body.menu-open::after {
   
   text-align: center;
   line-height: 0.5;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
 
   z-index: 2;
 }
