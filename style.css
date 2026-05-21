@@ -201,7 +201,7 @@ body.menu-open::after {
   transform: translate(-50%, -50%);
 
   color: white;
-  font-size: 300px;
+  font-size: 250px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
 
