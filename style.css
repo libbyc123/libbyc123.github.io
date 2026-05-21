@@ -181,7 +181,7 @@ body.menu-open::after {
 
   transform: translate(-50%, -50%);
 
-  color: white;
+  color: rgba(174, 175, 97,1);
   font-size: 300px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
@@ -200,7 +200,7 @@ body.menu-open::after {
 
   transform: translate(-50%, -50%);
 
-  color: white;
+  color: rgba(174, 175, 97,1);
   font-size: 300px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
