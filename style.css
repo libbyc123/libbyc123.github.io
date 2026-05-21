@@ -182,8 +182,8 @@ body.menu-open::after {
   transform: translate(-50%, -50%);
 
   color: white;
-  font-size: 60px;
-  font-family: Georgia, serif;
+  font-size: 90px;
+  font-family: Montserrat, sans-serif;
   font-weight: bold;
 
   text-align: center;
