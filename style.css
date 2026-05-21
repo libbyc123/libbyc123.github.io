@@ -174,7 +174,26 @@ body.menu-open::after {
 .project-card:hover img {
   transform: scale(1.05);
 }
-.project-label {
+.project-label-art {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  color: white;
+  font-size: 300px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+
+  
+  text-align: center;
+  line-height: 0.5;
+  letter-spacing: 2px;
+
+  z-index: 2;
+}
+.project-label-sci {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -189,7 +208,7 @@ body.menu-open::after {
   
   text-align: center;
   line-height: 1.2;
-  letter-spacing: 2px;
+  letter-spacing: 8px;
 
   z-index: 2;
 }
