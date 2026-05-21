@@ -4,6 +4,7 @@ body {
 /*this is the color of the main page background*/
   background-color: rgba(174, 175, 97,1);
 }
+
 body.menu-open::after {
   content: "";
   position: fixed;
@@ -47,6 +48,8 @@ body.menu-open::after {
   position: relative;
   z-index: 2;
 }
+
+/*HOME PAGE INTRO TEXT*/
 .intro-text {
   font-family: Montserrat, sans-serif;
   color: rgba(10, 54, 20,1);
@@ -62,6 +65,7 @@ body.menu-open::after {
   font-family: Georgia, serif;
 }
 
+/*CONTACT PAGE TEXT*/
 .contact-text {
   font-family: Montserrat, sans-serif;
   color: rgba(30, 88, 85, 1);
@@ -77,6 +81,7 @@ body.menu-open::after {
   font-family: Georgia, serif;
 }
 
+/*HOME PAGE PINK BOX*/
 .left-panel {
   width: 500px;
   height: 500px;
@@ -89,6 +94,7 @@ body.menu-open::after {
 
   border-radius: 0px;
 }
+
 .menu-icon {
   position: fixed;
   top: 20px;
@@ -136,6 +142,7 @@ body.menu-open::after {
   color: #aad4ff;
 }
 
+/*PROJECTS PAGE*/
 .project-grid {
   display: flex;
   gap: 40px;
