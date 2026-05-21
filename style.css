@@ -201,13 +201,13 @@ body.menu-open::after {
   transform: translate(-50%, -50%);
 
   color: white;
-  font-size: 250px;
+  font-size: 200px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
 
   
   text-align: center;
-  line-height: 0.5;
+  line-height: 0.8;
   letter-spacing: 8px;
 
   z-index: 2;
