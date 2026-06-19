@@ -9,31 +9,26 @@
 </head>
 
 <body>
-  <div class="menu-icon" onclick="toggleMenu()">☰</div>
 
-<nav id="navbar">
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
+<div class="hero">
+  <div class="hero-text">
+    <h1>Libby Chambers</h1>
+    <p>Hello and Welcome!</p>
 
-    <li class="dropdown">
-      <a href="projects.html">Projects</a>
-      <ul class="dropdown-menu">
-        <li><a href="projects/art.html">Art</a></li>
-        <li><a href="projects/science.html">Science</a></li>
-      </ul>
-    </li>
+    <div class="home-tabs">
+      <div class="home-dropdown">
+        <a href="projects.html">Projects</a>
+        <div class="home-dropdown-menu">
+          <a href="projects/art.html">Art</a>
+          <a href="projects/science.html">Science</a>
+        </div>
+      </div>
 
-    <li><a href="resume.html">Resume</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
-
-  <div class="hero">
-    <div class="hero-text">
-      <h1>Libby Chambers</h1>
-      <p>Hello and Welcome!</p>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
     </div>
   </div>
+</div>
 
 <div class="intro-text">
   <p>
@@ -45,26 +40,7 @@
 <div class="profile-photo">
   <img src="assest/images/grad_pic.jpg" alt="Libby Chambers">
 </div>
-<script>
-function toggleMenu() {
-  const navbar = document.getElementById("navbar");
 
-  navbar.classList.toggle("active");
-  document.body.classList.toggle("menu-open");
-}
-
-document.addEventListener("click", function(event) {
-  const navbar = document.getElementById("navbar");
-  const menuIcon = document.querySelector(".menu-icon");
-
-  const clickedInsideMenu = navbar.contains(event.target);
-  const clickedIcon = menuIcon.contains(event.target);
-
-  if (!clickedInsideMenu && !clickedIcon) {
-    navbar.classList.remove("active");
-    document.body.classList.remove("menu-open");
-  }
-});
 </script>
 </body>
 </html>
