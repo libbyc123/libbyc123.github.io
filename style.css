@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Montserrat, sans-serif;
 /*this is the color of the main page background*/
-  background-color: rgba(174, 175, 97,1);
+  background-color: rgba(242, 239, 226, 1);
 }
 
 body.menu-open::after {
