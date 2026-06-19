@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Scicne Projects</title>
+  <head>
+  <link rel="stylesheet" href="style.css">
+  <title>Science</title>
 </head>
+  
 <body>
+%this goes on each page to toggle back to the menu
+<div class="menu-icon" onclick="toggleMenu()">☰</div>
 
-<nav>
-  <ul>
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="../about.html">About</a></li>
-    <li><a href="../projects.html">Projects</a></li>
+<nav id="navbar">
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
+  
+ <div class="hero">
+    <div class="hero-text">
+    <h1>Research Interests and Past Projects</h1>
+    </div>
+ </div>
+<div class="contact-text">
+  <p>
+    I am a trained biomedical engineer from the University of Michigan.  
+  </p>
+</div>
 
-<h1>stuff i did in class and internships, liks to manuscripts?</h1>
-<p>idk what i all want to include here yet</p>
+%this script is for each page for animating the nav bar
+<script>
+function toggleMenu() {
+  const navbar = document.getElementById("navbar");
+
+  navbar.classList.toggle("active");
+  document.body.classList.toggle("menu-open");
+}
+
+document.addEventListener("click", function(event) {
+  const navbar = document.getElementById("navbar");
+  const menuIcon = document.querySelector(".menu-icon");
+
+  const clickedInsideMenu = navbar.contains(event.target);
+  const clickedIcon = menuIcon.contains(event.target);
+
+  if (!clickedInsideMenu && !clickedIcon) {
+    navbar.classList.remove("active");
+    document.body.classList.remove("menu-open");
+  }
+});
+</script>
+
+</html>
 
 </body>
 </html>
