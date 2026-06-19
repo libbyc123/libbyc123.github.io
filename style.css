@@ -39,7 +39,7 @@ body.menu-open::after {
 }
 
 .hero-text {
-  color: white;
+  color: rgba(242, 239, 226, 1);
   width: 55%;
   margin-left: auto;
   
@@ -100,7 +100,7 @@ body.menu-open::after {
   top: 20px;
   right: 20px;
   font-size: 70px;
-  color: white;
+  color: rgba(242, 239, 226, 1);
   cursor: pointer;
   z-index: 3000;
 }
@@ -133,7 +133,7 @@ body.menu-open::after {
 }
 
 .nav-links a {
-  color: white;
+  color: rgba(242, 239, 226, 1);
   text-decoration: none;
   font-size: 20px;
 }
