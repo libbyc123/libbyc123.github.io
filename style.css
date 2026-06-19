@@ -35,7 +35,7 @@ body.menu-open::after {
   position: absolute;
   inset: 0;
 /* this is the color of the banner background*/
-  background: rgba(88, 145, 140, 1.0);
+  background: rgba(74, 73, 67, 1);
 }
 
 .hero-text {
