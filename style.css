@@ -65,12 +65,12 @@ body.menu-open::after {
   font-family: Georgia, serif;
 }
 .profile-photo {
-  text-align: center;
+  text-align: left;
   margin: 40px 0;
 }
 
 .profile-photo img {
-  width: 300px;
+  width: 50px;
   max-width: 80%;
   height: auto;
   border-radius: 10px;
