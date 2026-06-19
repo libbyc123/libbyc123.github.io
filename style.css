@@ -66,14 +66,14 @@ body.menu-open::after {
 }
 .profile-photo {
   text-align: left;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 .profile-photo img {
-  width: 50px;
+  width: 100px;
   max-width: 80%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 /*CONTACT PAGE TEXT*/
 .contact-text {
