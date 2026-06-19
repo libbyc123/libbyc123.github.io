@@ -64,7 +64,17 @@ body.menu-open::after {
   line-height: 1.7;
   font-family: Georgia, serif;
 }
+.profile-photo {
+  text-align: center;
+  margin: 40px 0;
+}
 
+.profile-photo img {
+  width: 300px;
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
 /*CONTACT PAGE TEXT*/
 .contact-text {
   font-family: Montserrat, sans-serif;
