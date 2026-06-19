@@ -98,6 +98,49 @@ body.menu-open::after {
   border-radius: 0px;
   z-index: 1;
 }
+
+.home-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 25px;
+}
+
+.home-tabs a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.home-tabs a:hover {
+  text-decoration: underline;
+}
+
+.home-dropdown {
+  position: relative;
+}
+
+.home-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  min-width: 120px;
+  z-index: 20;
+}
+
+.home-dropdown-menu a {
+  display: block;
+  padding: 6px 0;
+}
+
+.home-dropdown:hover .home-dropdown-menu {
+  display: block;
+}
 /*CONTACT PAGE TEXT*/
 .contact-text {
   font-family: Montserrat, sans-serif;
