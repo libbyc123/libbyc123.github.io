@@ -104,7 +104,20 @@ body.menu-open::after {
   cursor: pointer;
   z-index: 3000;
 }
+.dropdown-menu {
+  display: none;
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 10px;
+}
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin: 10px 0;
+}
 #navbar {
   position: fixed;
   top: 0;
