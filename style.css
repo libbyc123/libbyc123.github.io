@@ -49,7 +49,7 @@ body.menu-open::after {
   z-index: 2;
 }
 
-/*HOME PAGE INTRO TEXT*/
+/*HOME PAGE*/
 .intro-text {
   font-family: Montserrat, sans-serif;
   color: rgba(10, 54, 20,1);
@@ -65,7 +65,7 @@ body.menu-open::after {
   font-family: Georgia, serif;
 }
 .profile-photo {
-  text-align: left;
+  text-align: center;
   margin: 20px 0;
 }
 
@@ -73,6 +73,20 @@ body.menu-open::after {
   width: 100px;
   max-width: 80%;
   height: auto;
+  border-radius: 0px;
+}
+
+/*home page pink box*/
+.left-panel {
+  width: 500px;
+  height: 500px;
+
+  background-color: rgba(182, 87, 84, 1);
+
+  position: absolute;
+  left: 175px;
+  top: 100px;
+
   border-radius: 0px;
 }
 /*CONTACT PAGE TEXT*/
@@ -89,20 +103,6 @@ body.menu-open::after {
   font-size: 18px;
   line-height: 1.7;
   font-family: Georgia, serif;
-}
-
-/*HOME PAGE PINK BOX*/
-.left-panel {
-  width: 500px;
-  height: 500px;
-
-  background-color: rgba(182, 87, 84, 1);
-
-  position: absolute;
-  left: 175px;
-  top: 100px;
-
-  border-radius: 0px;
 }
 
 .menu-icon {
