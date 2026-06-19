@@ -65,14 +65,19 @@ body.menu-open::after {
   font-family: Georgia, serif;
 }
 .profile-photo {
+  position: relative;
+  z-index: 10;
   margin-left: 100px;  
   margin-right: auto;
   margin-top: 200px;
   text-align: left;
   margin: 20px 0;
+  
 }
 
 .profile-photo img {
+  position: relative;
+  z-index: 10;
   width: 300px;
   max-width: 80%;
   height: auto;
@@ -91,6 +96,7 @@ body.menu-open::after {
   top: 100px;
 
   border-radius: 0px;
+  z-index: 1;
 }
 /*CONTACT PAGE TEXT*/
 .contact-text {
