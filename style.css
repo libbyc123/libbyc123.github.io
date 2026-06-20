@@ -129,7 +129,7 @@ body.menu-open::after {
 }
 
 .home-dropdown-menu {
-  display: none;
+  
   position: absolute;
   top: 30px;
   left: 0;
@@ -186,6 +186,13 @@ body.menu-open::after {
 
 .dropdown-menu li {
   margin: 10px 0;
+}
+
+.home-tabs,
+.home-dropdown,
+.home-dropdown-menu {
+  position: relative;
+  z-index: 100;
 }
 #navbar {
   position: fixed;
