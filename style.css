@@ -327,6 +327,35 @@ body {
   margin-top: auto;
 }
 
+/*CONTACT EMAIL ME*/
+
+.email-box {
+  background-color: rgba(242, 239, 226, 1);
+  border: 2px solid rgba(74, 73, 67, 1);
+  border-radius: 12px;
+  padding: 20px;
+  width: fit-content;
+  max-width: 90%;
+  margin: 30px auto;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+}
+
+.email-box h2 {
+  margin-top: 0;
+  color: rgba(74, 73, 67, 1);
+}
+
+.email-box a {
+  color: rgba(74, 73, 67, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.email-box a:hover {
+  text-decoration: underline;
+}
+
 /* Mobile-friendly layout */
 @media (max-width: 768px) {
 
