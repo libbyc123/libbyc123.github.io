@@ -78,7 +78,7 @@ body.menu-open::after {
 .profile-photo img {
   position: relative;
   z-index: 10;
-  width: 300px;
+  width: 600px;
   max-width: 80%;
   height: auto;
   border-radius: 0px;
