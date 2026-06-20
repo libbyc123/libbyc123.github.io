@@ -329,31 +329,60 @@ body {
 
 /*CONTACT EMAIL ME*/
 
-.email-box {
-  background-color: rgba(242, 239, 226, 1);
-  border: 2px solid rgba(74, 73, 67, 1);
-  border-radius: 12px;
-  padding: 20px;
-  width: fit-content;
-  max-width: 90%;
-  margin: 30px auto;
-  text-align: center;
-  font-family: Montserrat, sans-serif;
+.contact-form {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(242,239,226,1);
+    border-radius: 15px;
 }
 
-.email-box h2 {
-  margin-top: 0;
-  color: rgba(74, 73, 67, 1);
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.email-box a {
-  color: rgba(74, 73, 67, 1);
-  font-weight: bold;
-  text-decoration: none;
+.contact-form input,
+.contact-form textarea {
+
+    width: 100%;
+    padding: 14px;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+
+    border: 2px solid rgba(74,73,67,1);
+    border-radius: 10px;
+
+    background: white;
+
+    box-sizing: border-box;
 }
 
-.email-box a:hover {
-  text-decoration: underline;
+.contact-form textarea {
+    resize: vertical;
+    min-height: 180px;
+}
+
+.contact-form button {
+
+    padding: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: rgba(74,73,67,1);
+    color: rgba(242,239,226,1);
+
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    opacity: 0.85;
 }
 
 /* Mobile-friendly layout */
