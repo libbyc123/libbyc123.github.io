@@ -24,7 +24,7 @@ body.menu-open::after {
   justify-content: center;   
   align-items: flex-start;   
 
-  overflow: hidden;
+  overflow: visible;
   position: relative;
 
   padding-top: 7px;         /* space from top */
