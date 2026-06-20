@@ -287,6 +287,7 @@ body.menu-open::after {
 }
 
 /*FOOTER*/
+
 .site-footer {
   background-color: rgba(74, 73, 67, 1);
   color: rgba(242, 239, 226, 1);
@@ -311,6 +312,19 @@ body.menu-open::after {
 
 .footer-content a:hover {
   text-decoration: underline;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer {
+  margin-top: auto;
 }
 
 /* Mobile-friendly layout */
