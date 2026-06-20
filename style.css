@@ -406,3 +406,21 @@ body {
   }
 
 }
+  .site-footer {
+    padding: 25px 15px;
+    text-align: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-content p {
+    margin: 0 0 5px 0;
+  }
+
+  .footer-content a {
+    font-size: 16px;
+  }
+
