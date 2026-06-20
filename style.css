@@ -54,11 +54,11 @@ body.menu-open::after {
   font-family: Montserrat, sans-serif;
   color: rgba(10, 54, 20,1);
   width: 40%;
-  margin-left: auto;   /* pushes it to right side */
+  margin-left: 100px;   
   margin-right: 100px;
   margin-top: 200px;
 
-  text-align: left;
+  text-align: center;
 
   font-size: 18px;
   line-height: 1.7;
