@@ -41,7 +41,6 @@ body.menu-open::after {
 .hero-text {
   color: rgba(74, 73, 67, 1);
   width: 55%;
-  margin-left: auto;
   
   text-align: center;
   font-size: 30px;
@@ -70,7 +69,7 @@ body.menu-open::after {
   margin-left: 100px;  
   margin-right: auto;
   margin-top: 200px;
-  text-align: left;
+  text-align: center;
   margin: 20px 0;
   
 }
