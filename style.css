@@ -286,6 +286,33 @@ body.menu-open::after {
   z-index: 2;
 }
 
+/*FOOTER*/
+.site-footer {
+  background-color: rgba(74, 73, 67, 1);
+  color: rgba(242, 239, 226, 1);
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-content a {
+  color: rgba(242, 239, 226, 1);
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
 /* Mobile-friendly layout */
 @media (max-width: 768px) {
 
